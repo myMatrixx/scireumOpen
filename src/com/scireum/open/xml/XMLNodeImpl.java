@@ -45,7 +45,6 @@ public class XMLNodeImpl implements StructuredNode {
 		node = root;
 	}
 
-	@Override
 	public StructuredNode queryNode(String path)
 			throws XPathExpressionException {
 		Node result = (Node) XPATH.newXPath().compile(path)

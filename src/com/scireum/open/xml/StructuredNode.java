@@ -37,18 +37,18 @@ public interface StructuredNode {
 	/**
 	 * Returns a given node at the relative path.
 	 */
-	StructuredNode queryNode(String xpath) throws XPathExpressionException;
+	public StructuredNode queryNode(String xpath) throws XPathExpressionException;
 
 	/**
 	 * Returns a list of nodes at the relative path.
 	 */
-	List<StructuredNode> queryNodeList(String xpath)
+	public List<StructuredNode> queryNodeList(String xpath)
 			throws XPathExpressionException;
 
 	/**
 	 * Boilerplate for array handling....
 	 */
-	StructuredNode[] queryNodes(String path) throws XPathExpressionException;
+	public StructuredNode[] queryNodes(String path) throws XPathExpressionException;
 
 	/**
 	 * Returns a property at the given part.

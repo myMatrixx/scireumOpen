@@ -60,6 +60,6 @@ public class ExampleXML {
 		// Parse our little test file. Note, that this could be easily processed
 		// with a DOM-parser and only serves as showcase. Real life input files
 		// would be much bigger...
-		r.parse(new FileInputStream("src/examples/test.xml"));
+		r.parse(new FileInputStream("test/examples/test.xml"));
 	}
 }
