@@ -1,4 +1,115 @@
+# Created by https://www.gitignore.io
+
 bin
 target
 .idea/
 *.iml
+
+
+/test-output/
+/test-output/**
+
+*.orig
+*.log
+
+## Project File
+.project
+.classpath
+
+### Intellij ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+.idea/**
+
+### We dont want the classfiles creaded when building the project
+*.class
+/META-INF/
+/classes/
+/build
+
+settings.gradle
+
+# Mongo Explorer plugin:
+# .idea/mongoSettings.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+.idea/
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+
+
+### Eclipse ###
+*.pydevproject
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# TeXlipse plugin
+.texlipse
+
+
+### Maven ###
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+
+### Gradle ###
+build/
+.gradle/
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+.settings
+
+# Ignore Garbage Groovy Settings Folder
+.groovy/
+.groovy/suggestions.xdsl
+
+test-output/
